@@ -12,9 +12,9 @@ The Motoko compiler, documentation and other tooling is [open source](https://gi
 
 ## Native canister support
 
-Motoko has native support for Internet Computer canisters.
+Motoko has native support for Internet Computer canisters. 
 
-A canister (or canister for short) is expressed as a Motoko actor. An actor is an autonomous object that fully encapsulates its state and communicates with other actors only through asynchronous messages.
+The canisters are expressed through actors in Motoko. An actor is an autonomous object that fully encapsulates its state and communicates with other actors only through asynchronous messages.
 
 ``` motoko
 actor Counter {
